@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alpha_Youtube</title>
+ <style>
+    .videos {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 10px;
+    }
+    .box {
+        margin: 10px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 190px;
+    }
+    .box iframe {
+        display: block;
+    }
+    .video-title {
+        margin-top: 6px;
+        font-size: 12px;
+        text-align: center;
+        color: #333;
+    }
+    </style>
+</head>
+<body>
+<header style="position: fixed;"><img src="https://t3.ftcdn.net/jpg/06/34/31/96/360_F_634319630_txtgmPLEEQ8o4zaxec2WKrLWUBqdBBQn.jpg" alt="" aria-placeholder="YOUTUBE" style="height: 70px;position: absolute;border-top-left-radius: 2px;align-items: first baseline;">
+<input type="text" placeholder="Search" style="position: absolute;left: 200px;top: 20px;width: 350px;height: 35px;border-radius: 3px;"></input>
+<button style="position: absolute;left: 560px;top: 20px;width: 80px;height: 35px;border-radius: 3px;background-color: #b2b1b1;color: white;font-weight: bold;">Search</button>
+<button style="position: absolute;left: 680px;top: 20px;width: 80px;height: 35px;border-radius: 3px;">Sign in</button></header>
+<br>
+<br><br><br><br><br><br><br><br>
+<main class="videos"><div class="box"><iframe width="190" height="125" src="https://www.youtube.com/embed/qnDhYSj4uv0?si=UiK-P-KJEan-CZR5" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe><div class="video-title">Video 1</div></div>
+<div class="box"><iframe width="190" height="125" src="https://www.youtube.com/embed/n_5IuAS0PWI?si=Tq4oBYmpCCQgxCNw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe><div class="video-title">Video 2</div></div>
+<div class="box"><iframe width="190" height="125" src="https://www.youtube.com/embed/8wg2xhs5At0?si=5X1rg1_ncZCir6iL" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe><div class="video-title">Video 3</div></div>
+<div class="box"><iframe width="190" height="125" src="https://www.youtube.com/embed/8wg2xhs5At0?si=fvTzRtMOo2E7nK2a" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe><div class="video-title">Video 4</div></div></main>
+</body>
+</html>

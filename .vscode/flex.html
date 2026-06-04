@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Three Boxes</title>
+
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        .parent{
+            width: 600px;
+            height: 400px;
+            background-color: teal;
+            margin: 50px auto;
+
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 20px;
+        }
+
+        .box{
+            width: 100px;
+            height: 100px;
+            background-color: peachpuff;
+            border: 2px solid black;
+            padding: 5px; 
+        }
+    </style>
+</head>
+<body>
+
+    <div class="parent">
+        <div class="box">1</div>
+        <div class="box">2</div>
+        <div class="box">3</div>
+    </div>
+
+</body>
+</html>

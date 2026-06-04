@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Document</title>
+
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    height:100vh;
+    background:rgb(9, 9, 9);
+    font-family:Arial, sans-serif;
+}
+
+/* Navbar */
+.navbar{
+    width:100%;
+    height:60px;
+    background:#eafff5;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    gap:50px;
+}
+
+.navbar a{
+    text-decoration:none;
+    color:rgb(19, 168, 79);
+    font-size:20px;
+}
+
+/* Main Section */
+.hero{
+    height:calc(100vh - 120px);
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    color:white;
+    text-align:center;
+}
+
+.hero h1{
+    font-size:50px;
+    margin-bottom:10px;
+}
+
+.hero p{
+    font-size:18px;
+}
+
+.footer{
+    width:100%;
+    height:60px;
+    background:#66ffd9;
+}
+
+/* Chat Button */
+.chat-btn{
+    position:fixed;
+    right:20px;
+    bottom:20px;
+    width:60px;
+    height:60px;
+    background:#07e8bb;
+    border-radius:50%;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    font-size:30px;
+    color:rgb(242, 234, 234);
+    cursor:pointer;
+}
+</style>
+</head>
+
+<body>
+
+<div class="navbar">
+    <a href="#">Home</a>
+    <a href="#">Blog</a>
+    <a href="#">Project</a>
+    <a href="#">Service</a>
+    <a href="#">Contact</a>
+</div>
+
+<div class="hero">
+    <h1>Welcome to the Website</h1>
+    <p>These are the descriptions</p>
+</div>
+
+<div class="footer"></div>
+
+<div class="chat-btn">
+   💬
+</div>
+</body>
+</html>

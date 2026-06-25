@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Grid Layout</title>
+
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+.container{
+    width:800px;
+    height:400px;
+
+    display:grid;
+    grid-template-columns:repeat(4,1fr);
+    grid-template-rows:repeat(3,1fr);
+    gap:5px;
+}
+
+.box{
+    border:1px solid black;
+}
+
+/* Blue Area */
+.box1,.box2,.box5,.box6{
+    background:blue;
+}
+
+/* Green Area */
+.box3,.box7{
+    background:lightgreen;
+}
+
+/* Pink Area */
+.box4,.box8,.box12{
+    background:pink;
+}
+
+/* Black Area */
+.box9,.box10,.box11{
+    background:black;
+}
+</style>
+</head>
+<body>
+
+<div class="container">
+    <div class="box box1"></div>
+    <div class="box box2"></div>
+    <div class="box box3"></div>
+    <div class="box box4"></div>
+
+    <div class="box box5"></div>
+    <div class="box box6"></div>
+    <div class="box box7"></div>
+    <div class="box box8"></div>
+
+    <div class="box box9"></div>
+    <div class="box box10"></div>
+    <div class="box box11"></div>
+    <div class="box box12"></div>
+</div>
+
+</body>
+</html>

@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+.container{
+    width: 800px;
+    height: 500px;
+    border: 2px solid black;
+
+    display: grid;
+    grid-template-columns: 200px 200px 200px 200px;
+    grid-template-rows: 80px 100px 180px 100px;
+    gap: 5px;
+}
+
+.box{
+    border: 1px solid white;
+    color: white;
+    text-align: center;
+    padding-top: 30px;
+}
+
+.sidebar{
+    background: blue;
+    grid-row: 1 / 5;
+}
+
+.top{
+    background: gray;
+    grid-column: 2 / 5;
+}
+
+.users{background: purple;}
+.revenue{background: green;}
+.orders{background: brown;}
+
+.chart{
+    background: orange;
+    grid-column: 2 / 4;
+}
+
+.table{
+    background: red;
+}
+
+.w1{background: teal;}
+.w2{background: steelblue;}
+.w3{background: navy;}
+
+body{
+    background: black;
+}
+</style>
+</head>
+<body>
+
+<div class="container">
+    <div class="box sidebar"></div>
+    <div class="box top"></div>
+
+    <div class="box users"></div>
+    <div class="box revenue"></div>
+    <div class="box orders"></div>
+
+    <div class="box chart"></div>
+    <div class="box table"></div>
+
+    <div class="box w1"></div>
+    <div class="box w2"></div>
+    <div class="box w3"></div>
+</div>
+
+</body>
+</html>

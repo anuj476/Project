@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+.container{
+    width: 800;
+    height: 500px;
+    border: 2px solid red;
+
+    display: grid;
+    grid-template-columns: 1fr 1fr 1.5fr;
+    grid-template-rows: repeat(4,1fr);
+    gap: 5px;
+}
+
+.item{
+    border: 1px solid black;
+}
+
+.black{
+    background: black;
+}
+
+.green{
+    background: green;
+    grid-column: 3;
+    grid-row: 1 / 5;
+}
+
+.box1{background:black;}
+.box2{background:black;}
+
+.box3{background:orange;}
+.box4{background:skyblue;}
+
+.box5{background:yellow;}
+.box6{background:pink;}
+
+.box7{background:purple;}
+.box8{background:lightgreen;}
+</style>
+</head>
+<body>
+
+<div class="container">
+    <div class="item box1"></div>
+    <div class="item box2"></div>
+    <div class="item green"></div>
+
+    <div class="item box3"></div>
+    <div class="item box4"></div>
+
+    <div class="item box5"></div>
+    <div class="item box6"></div>
+
+    <div class="item box7"></div>
+    <div class="item box8"></div>
+</div>
+
+</body>
+</html>
